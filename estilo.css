@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  }
+  body{
+  margin: 0;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(0, 0, 0));
+  }
+  .logo h1{
+  font-family: Arial, Helvetica, sans-serif;color: rgb(0, 0, 0);
+  font-size: 30px;
+  }
+  .principal{
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  }
+  .texto{
+   margin-left: 10%;
+  flex: 40%;
+  }
+  .texto h2{
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    }
+  .imagem{
+display: flex;
+flex-flow: row wrap;margin-right: 10%;
+flex: 40%;
+justify-content: center;align-items: center;
+width: 50%;}
+.imagem2{
+  display: flex;
+  flex-flow: row wrap;margin-right: 10%;
+  flex: 40%;
+  justify-content: center;align-items: center;
+  width: 50%;}
+.imagem3{
+display: flex;
+flex-flow: row wrap;margin-right: 10%;
+flex: 40%;
+justify-content: center;align-items: center;
+width: 50%;}
+  
